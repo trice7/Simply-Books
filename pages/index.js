@@ -9,6 +9,8 @@ import BookCard from '../components/BookCard';
 function Home() {
   // TODO: Set a state for books
   const [books, setBooks] = useState([]);
+  // Set a state for authors
+  // const [authors, setAuthors] = useState([]);
 
   // TODO: Get user ID using useAuth Hook
   const { user } = useAuth();

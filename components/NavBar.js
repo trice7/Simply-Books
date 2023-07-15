@@ -24,6 +24,15 @@ export default function NavBar() {
             <Link passHref href="/book/new">
               <Nav.Link>Create Book</Nav.Link>
             </Link>
+            <Link passHref href="/author/authors">
+              <Nav.Link>Authors</Nav.Link>
+            </Link>
+            <Link passHref href="/author/new">
+              <Nav.Link>Create Author</Nav.Link>
+            </Link>
+            <Link passHref href="/author/profile">
+              <Nav.Link>Profile</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -35,5 +44,6 @@ NavBar.propTypes = {
   user: PropTypes.shape({
     displayName: PropTypes.string,
     photoURL: PropTypes.string,
+    uid: PropTypes.string,
   }).isRequired,
 };
