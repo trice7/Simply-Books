@@ -28,19 +28,4 @@ const ViewAuthor = () => {
   );
 };
 
-// `<div className="d-flex flex-column">
-//   <img src={bookDetails.image} alt={bookDetails.title} style={{ width: '300px' }} />
-// </div>`
-
-// `<h5>
-//   {bookDetails.title} by {bookDetails.authorObject?.first_name} {bookDetails.authorObject?.last_name}
-//   {bookDetails.authorObject?.favorite ? ' 🤍' : ''}
-// </h5>`
-
-// `<p>
-//   {bookDetails.sale
-//     ? `🏷️ Sale $${bookDetails.price}`
-//     : `$${bookDetails.price}`}
-// </p>`
-
 export default ViewAuthor;
